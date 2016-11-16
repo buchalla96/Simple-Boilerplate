@@ -29,8 +29,7 @@ module.exports = {
 	},
 	plugins: [
 		new webpack.optimize.CommonsChunkPlugin({
-			name: 'vendor',
-            async: true
+			name: 'vendor'
 		})
 	]
 }
